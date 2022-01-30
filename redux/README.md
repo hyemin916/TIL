@@ -5,7 +5,7 @@
 - MVC 패턴 사용
 - 컨트롤러와 뷰가 모델 업데이트 가능
 - 모델과 뷰의 데이터가 동기화되는 양방향 데이터 바인딩
-  ![mvc](/mvc.png)
+  ![mvc](https://user-images.githubusercontent.com/80461702/151683923-ba2dcd1e-d0a1-4d15-ae04-5dd62dc558ff.png)
 
 ### 페이스북의 알림 버그
 - 우측 상단에 알림(1)이 있다면 채팅창, 채팅리스트 모두 알림(1)이 있어야 함
@@ -27,7 +27,8 @@
 - observer-observable 패턴을 약간 변형함
 - 단방향 데이터 플로우
 
-![flux](/flux.png)
+![flux](https://user-images.githubusercontent.com/80461702/151683921-7f9abf85-ca8a-4f68-849b-ed5bc6d48761.png)
+
 
 - Action
   - 앱의 기능에 기반(ex. 글 작성, 글 삭제 등)
@@ -48,7 +49,7 @@
 - Flux에 영감을 받은 라이브러리
 - 스토어가 1개이고 디스패처 대신 리듀서를 씀
 
-![redux](/redux.png)
+![redux](https://user-images.githubusercontent.com/80461702/151683928-9e880499-cc3c-48b3-8bd5-842c2037febb.png)
 
 - Action
 - Component
@@ -84,7 +85,7 @@
 - 서버 데이터(상태)를 관리함으로써 컴포넌트의 전역 상태 갯수를 줄일 수 있음
 ### Recoil
 - **atoms**(shared state)에서 **selectors**(pure functions)를 통해 **리액트 컴포넌트**로 흐르는 데이터 플로우 그래프 생성  
-![recoil](/recoil.png)
+![recoil](https://user-images.githubusercontent.com/80461702/151683924-07ca4fd6-2354-4b7f-a138-cfad97386529.png)
 - Atom
   - 상태 단위
   - atom이 업데이트 되면 atom을 구독하는 컴포넌트가 리렌더됨
@@ -96,6 +97,9 @@
   - 컴포넌트는 selector를 구독할 수 있고 selector가 업데이트되면 리렌더됨
   - 비동기 수행 가능
 - 페이스북에서 개발 -> 리액트 기능들과 호환됨
+- selector로 비동기 데이터 캐싱 가능
+- DevTool이 없어서 디버깅이 어려울 수 있음
+- 실험적인 단계
 ---
 
 ## 참고
@@ -104,4 +108,5 @@
 [Recoil - 또 다른 React 상태 관리 라이브러리?](https://ui.toast.com/weekly-pick/ko_20200616)  
 [내가 리덕스를 쓰지 않는 이유](https://kjwsx23.tistory.com/552)  
 [Redux Alternative](https://blog.openreplay.com/redux-alternatives-in-2021)  
-[Recoil Docs](https://recoiljs.org/)
+[Recoil Docs](https://recoiljs.org/)  
+[Recoil 200% 활용하기](https://velog.io/@juno7803/Recoil-Recoil-200-%ED%99%9C%EC%9A%A9%ED%95%98%EA%B8%B0)
