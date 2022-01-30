@@ -98,6 +98,9 @@
 - DevTool이 없어서 디버깅이 어려울 수 있음
 - 실험적인 단계
 
+## 리덕스, 꼭 써야 할까?
+리덕스의 토대가 된 flux패턴은 앱이 비대해지면서 생긴 문제를 해결하기 위해 나왔다는 점을 고려하면 개인 프로젝트 규모의 앱에서는 어쩌면 필요하지 않을지도 모른다. 리덕스를 대체할 수 있는 많은 대안들이 있다. 그런데 위 대안들과 리덕스가 다른 점은 리액트 밖에서도 쓸 수 있다는 것이다. 영원히 리액트만 쓰게 될거란 보장은 없으니, 잘 익혀두면 활용도가 좋을 수 있다.
+
 ## 참고
 [Flux and Redux](https://medium.com/@sidathasiri/flux-and-redux-f6c9560997d7)  
 [페이스북의 결정](https://blog.coderifleman.com/2015/06/19/mvc-does-not-scale-use-flux-instead/)  
