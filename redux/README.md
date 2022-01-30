@@ -17,7 +17,6 @@
 - 많은 모델과 많은 뷰로 복잡해진 구조에서 버그 발생
 - MVC 패턴의 **양방향 데이터 흐름**을 문제의 원인으로 인식
 - 해결책으로 **데이터가 단방향으로 흐르는 Flux 패턴** 제시
-  ***
 
 ## Flux and Redux
 
@@ -60,7 +59,6 @@
   - immutable
 
 > Redux is a predictable state container for JavaScript apps.
----
 
 
 ### 리덕스를 쓰는 이유
@@ -74,7 +72,6 @@
 - 데이터를 캐싱하거나 비동기 요청을 처리하기 위해선 별도의 미들웨어가 필요
 - 높은 러닝 커브
 
----
 ## 대안
 ### Context API
 - 대규모 프로젝트가 아닐 경우 리덕스 사용은 오버 엔지니어링일 수 있음
@@ -100,7 +97,6 @@
 - selector로 비동기 데이터 캐싱 가능
 - DevTool이 없어서 디버깅이 어려울 수 있음
 - 실험적인 단계
----
 
 ## 참고
 [Flux and Redux](https://medium.com/@sidathasiri/flux-and-redux-f6c9560997d7)  
